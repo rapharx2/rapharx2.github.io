@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&family=Roboto+Condensed:wght@300;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 0px;
+    background: #edeef0;
+}
+
+main {
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ 
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #f3f3f3;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 50px;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: #c4c4c4;
+  }
+
+.title {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 32px;
+    padding: 8px 0;
+    font-style: italic;
+}
+
+.box-click {
+    text-decoration: none;
+    color: black;
+}
+
+.border-menu {
+    border-bottom: 1px solid #706f72;
+    background-color: #111315;
+    color: #ffffff;
+    min-height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.dropdown-conteine {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.dropdown {
+    font-family: 'Montserrat';
+}
+
+.dropbtn {
+    color: #737478;
+    background: transparent;
+    padding: 14px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all ease 200ms;
+    font-family: 'Montserrat';
+    margin-right: 16px;
+}
+
+.dropbtn i {
+    margin-left: 0px;
+    transform: rotate(-90deg);
+    color: transparent;
+    transition: all ease 200ms;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: transparent;
+    padding-top: 16px;
+    min-width: 10rem;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    background-color: #ffffff;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:first-child {
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.dropdown-content a:last-child {
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropbtn {
+    color: #ffffff;
+    background-color: #1e2021;
+    margin-right: 0px;
+}
+
+.dropdown:hover .dropbtn i {
+    color: #ffffff;
+    margin-left: 16px;
+    transform: rotate(0deg);
+}
+
+
+.icons-conteiner {
+    display: flex;
+    gap: 0 50px;
+    flex-wrap: wrap;
+    left: 30px;  
+}
+
+
+.feed-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin: 50px 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-left: max(15vw, 16px);
+    margin-right: max(15vw, 16px);
+    background-color: white;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.post {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.feed-container img {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px 8px 0 0;
+    max-width: 1200px;
+}
+
+
+.post span {
+    padding: 15px 12px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.feed-container h1 {
+    padding: 6px 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.feed-container h3 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #48494a;
+    padding: 10px 20px;
+}
+
+a .title {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 32px;
+    padding: 8px 0;
+    font-style: italic;
+}
+
+@media screen and (max-width: 767px) {
+
+.icons-conteiner {
+    display: none;
+}
+
+.feed-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin: 50px 0;
+    background-color: white;
+    border-radius: 5px;
+    width: 95%;
+}
+
+}
+
+
+

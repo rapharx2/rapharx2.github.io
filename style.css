@@ -13,6 +13,10 @@ main {
     justify-content: center;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
 }

@@ -38,7 +38,7 @@ a {
     background: #c4c4c4;
   }
 
-.title {
+  .title {
     font-family: 'Montserrat';
     font-weight: 800;
     font-size: 32px;
@@ -163,7 +163,7 @@ a {
     margin-right: max(15vw, 16px);
     background-color: white;
     border-radius: 5px;
-    width: 50%;
+    width: 700px;
 }
 
 .post {

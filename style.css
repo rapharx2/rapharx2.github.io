@@ -13,7 +13,7 @@ main {
     justify-content: center;
 }
 
-.post span:hover {
+.post h2:hover {
      text-decoration: underline;
     color: red;
 }
@@ -189,7 +189,7 @@ a {
 }
 
 
-.post span {
+.post h2 {
     padding: 15px 12px;
     font-family: 'Montserrat';
     font-weight: 600;
@@ -238,6 +238,5 @@ a .title {
 }
 
 }
-
 
 

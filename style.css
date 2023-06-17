@@ -14,8 +14,7 @@ main {
 }
 
 .post h2:hover {
-     text-decoration: underline;
-    color: red;
+    text-decoration: underline;
 }
 
 a {
@@ -149,6 +148,18 @@ a {
 }
 
 
+.img-border {
+    transition: transform .3s;
+    overflow: hidden;
+    width: 100%;
+}
+
+.img-border img:hover {
+    transform: scale(1.1);
+}
+
+
+
 .icons-conteiner {
     display: flex;
     gap: 0 50px;
@@ -186,6 +197,8 @@ a {
     height: 300px;
     border-radius: 8px 8px 0 0;
     max-width: 1200px;
+    object-fit: cover;
+    object-position: 50% 0%;
 }
 
 
